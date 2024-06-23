@@ -1,0 +1,66 @@
+/* 
+
+Proposed colours :
+- purple
+- peach
+- sunset
+- night
+- synthwave
+- grass
+- ocean
+
+*/
+
+:root {
+    --purple: linear-gradient(to bottom right, #6889FF, #C668FF);
+    --peach: linear-gradient(to bottom right, #FF6868, #FF68DE);
+    --sunset: linear-gradient(to bottom right, #FDC639, #FF7C60);
+    --night: linear-gradient(to bottom right, #403F44, #1E1B32);
+    --synthwave: linear-gradient(to bottom, #FF9E68, #FF68DE);
+    --grass: linear-gradient(to bottom right, #45C270, #21CDC3);
+    --ocean: linear-gradient(to bottom right, #5B7FFF, #33CCFC);
+
+    --purple-infinite: linear-gradient(to bottom right, #6889FF, #C668FF, #6889FF);
+    --peach-infinite: linear-gradient(to bottom right, #FF6868, #FF68DE, #FF6868);
+    --sunset-infinite: linear-gradient(to bottom right, #FDC639, #FF7C60, #FDC639);
+    --night-infinite: linear-gradient(to bottom right, #403F44, #1E1B32, #403F44);
+    --synthwave-infinite: linear-gradient(to bottom, #FF9E68, #FF68DE, #FF9E68);
+    --grass-infinite: linear-gradient(to bottom right, #45C270, #21CDC3, #45C270);
+    --ocean-infinite: linear-gradient(to bottom right, #5B7FFF, #33CCFC, #5B7FFF);
+
+    --purple-webkit: -webkit-linear-gradient(to bottom right, #6889FF, #C668FF);
+    --peach-webkit: -webkit-linear-gradient(to bottom right, #FF6868, #FF68DE);
+    --sunset-webkit: -webkit-linear-gradient(to bottom right, #FDC639, #FF7C60);
+    --night-webkit: -webkit-linear-gradient(to bottom right, #403F44, #1E1B32);
+    --synthwave-webkit: -webkit-linear-gradient(to bottom, #FF9E68, #FF68DE);
+    --grass-webkit: -webkit-linear-gradient(to bottom right, #45C270, #21CDC3);
+    --ocean-webkit: -webkit-linear-gradient(to bottom right, #5B7FFF, #33CCFC);
+}
+
+.purple {
+    background-image: linear-gradient(to bottom right, #6889FF, #C668FF);
+}
+
+.peach {
+    background-image: linear-gradient(to bottom right, #FF6868, #FF68DE);
+}
+
+.sunset {
+    background-image: linear-gradient(to bottom right, #FDC639, #FF7C60);
+}
+
+.night {
+    background-image: linear-gradient(to bottom right, #403F44, #1E1B32);
+}
+
+.synthwave {
+    background-image: linear-gradient(to bottom, #FF9E68, #FF68DE);
+}
+
+.grass {
+    background-image: linear-gradient(to bottom right, #45C270, #21CDC3);
+}
+
+.ocean {
+    background-image: linear-gradient(to bottom right, #5B7FFF, #33CCFC);
+}
